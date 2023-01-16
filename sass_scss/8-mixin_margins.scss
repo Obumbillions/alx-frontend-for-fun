@@ -1,0 +1,12 @@
+@mixin my-margin($property) {
+  margin-left: $property;
+  margin-right: $property;
+}
+
+body {
+  @include my-margin(10px);
+}
+
+div {
+  @include my-margin(15px);
+}
